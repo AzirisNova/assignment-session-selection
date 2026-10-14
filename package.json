@@ -1,0 +1,16 @@
+{
+  "name": "assignment-session-selection",
+  "version": "1.0.0",
+  "description": "Session-selection feature for a client booking website",
+  "type": "module",
+  "main": "sessions.mjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

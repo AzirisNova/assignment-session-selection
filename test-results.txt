@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: T1 (R2, R3) normal valid request returns matching sessions in order
+ok 1 - T1 (R2, R3) normal valid request returns matching sessions in order
+  ---
+  duration_ms: 2.823763
+  type: 'test'
+  ...
+# Subtest: T2 (R2) exactly enough remaining places is included
+ok 2 - T2 (R2) exactly enough remaining places is included
+  ---
+  duration_ms: 0.278041
+  type: 'test'
+  ...
+# Subtest: T3 (R3) equal start times use ID as tie-breaker
+ok 3 - T3 (R3) equal start times use ID as tie-breaker
+  ---
+  duration_ms: 0.178436
+  type: 'test'
+  ...
+# Subtest: T4 (R4) empty array returns []
+ok 4 - T4 (R4) empty array returns []
+  ---
+  duration_ms: 0.15266
+  type: 'test'
+  ...
+# Subtest: T5 (R4) no matching sessions returns []
+ok 5 - T5 (R4) no matching sessions returns []
+  ---
+  duration_ms: 0.136472
+  type: 'test'
+  ...
+# Subtest: T6 (R1) invalid requests throw RangeError
+ok 6 - T6 (R1) invalid requests throw RangeError
+  ---
+  duration_ms: 0.565602
+  type: 'test'
+  ...
+# Subtest: T7 (R1) boundary values 1 and 6 are accepted
+ok 7 - T7 (R1) boundary values 1 and 6 are accepted
+  ---
+  duration_ms: 0.375432
+  type: 'test'
+  ...
+# Subtest: T8 (R5) original array order and object values are preserved
+ok 8 - T8 (R5) original array order and object values are preserved
+  ---
+  duration_ms: 0.259919
+  type: 'test'
+  ...
+# Subtest: T9 (R6) index returns a Map and finds an existing ID
+ok 9 - T9 (R6) index returns a Map and finds an existing ID
+  ---
+  duration_ms: 0.377929
+  type: 'test'
+  ...
+# Subtest: T10 (R6) missing ID lookup returns undefined
+ok 10 - T10 (R6) missing ID lookup returns undefined
+  ---
+  duration_ms: 0.353999
+  type: 'test'
+  ...
+# Subtest: T11 (R6) duplicate IDs throw Error
+ok 11 - T11 (R6) duplicate IDs throw Error
+  ---
+  duration_ms: 0.317
+  type: 'test'
+  ...
+# Subtest: T12 (R6) empty array gives an empty Map
+ok 12 - T12 (R6) empty array gives an empty Map
+  ---
+  duration_ms: 0.152263
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 122.956238
